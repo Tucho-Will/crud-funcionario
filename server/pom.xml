@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.crud.spark</groupId>
-	<artifactId>crud_spark</artifactId>
+	<artifactId>crud</artifactId>
 	<version>1.0.0</version>
 	<name>crud_spark</name>
 
@@ -38,7 +38,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>${project.artifactId}.StartWaiter</mainClass>
+							<mainClass>${project.artifactId}.StartCrud</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -48,7 +48,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>${project.artifactId}.StartWaiter</mainClass>
+							<mainClass>${project.artifactId}.StartCrud</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
