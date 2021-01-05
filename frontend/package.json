@@ -11,7 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "js-beautify": "^1.7.5",
     "jsonlint-mod": "^1.7.2",
     "jsonminify": "^0.4.1",
